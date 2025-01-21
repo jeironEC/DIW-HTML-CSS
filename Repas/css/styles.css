@@ -28,7 +28,7 @@ header nav ul li {
 .container {
     border: 1px solid #003aa4;
     display: flex;
-    margin: 20px 40px;
+    /* margin: 20px 40px; */
     padding: 20px;
 }
 
@@ -76,4 +76,16 @@ header nav ul li {
 .container aside .menu:hover {
     background-color: #5792ff;
     color: #000000;
+}
+
+.ajuda {
+    background-color: #0fff4f;
+    border: 2px solid #000;
+    border-radius: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    padding: 5px 20px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
 }
